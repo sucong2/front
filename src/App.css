@@ -1,14 +1,23 @@
 /* 초기회 */
-* {margin: 0; padding: 0;}
+* {margin: 0; padding: 0; font-size: 14px;}
 
 /* wrap */
 #wrap {width: 768px; margin: 0 auto;}
 
 /* header */
 #header {width: 100%; height: 200px; background-color: #ffe082;}
-
+#header .header_container {border-bottom: #E8E8E8; height: 54%;}
+#header .header_container .location {border: none; padding: 10px; margin-left: 30px; margin-top: 30px; font-size: 18px; font-weight: bold; 
+	width: 150px; -webkit-appearance: none;-moz-appearance: none;appearance: none; background: url('../icon/chevron-down.svg') no-repeat 95% 50%}
+#header .header_container .location ::-ms-expand {display: none;}
 /* section */
 #section {overflow: hidden; padding: 5%; width: 90%;background-color: #ffca28; display: flex; flex-direction: column; flex-wrap: wrap;}
 #section .board {width: 95%; margin: 0 auto; height: 700px; background-color: #ff9800; border-radius: 20px; margin-bottom: 5%;}
 /* footer */
-#footer {width: 100%; height: 100px; position: fixed; bottom: 0; background-color: #ffb300;}
+#footer {width: 100%; height: 100px; position: fixed; bottom: 0; background-color: #ffb300; max-width: 768px; }
+  
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px) {
+	#wrap {width: 100%;}
+}
+
