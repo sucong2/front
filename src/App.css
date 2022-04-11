@@ -24,8 +24,18 @@ line-height: 76px;}
 #header .scroll_header_container .category_container div {font-size: 16px; font-weight: bold; margin: auto auto; width: 90%; text-align: center;}
 
 /* section */
-#section {overflow: hidden; padding: 5%; width: 90%;background-color: #ffca28; display: flex; flex-direction: column; flex-wrap: wrap;}
-#section .board {width: 95%; margin: 0 auto; height: 700px; background-color: #ff9800; border-radius: 20px; margin-bottom: 5%;}
+#section {overflow: hidden; padding: 5%; width: 90%;/* background-color: #ffca28 */; display: flex; flex-direction: column; flex-wrap: wrap;}
+#section .board_container {width: 95%; margin: 0 auto; height: 700px; background-color: #E8E8E8; border-radius: 20px; margin-bottom: 5%;}
+#section .board_container .board {width: 100%;height: 100%;}
+#section .board_container .board .board_header_container {width: 100%;height: 24%; display: flex;}
+#section .board_container .board .board_header_container .profile_pic {width:100px;height: 100px;background-color: #ccc; border-radius: 50%; 
+	margin: auto 0;}
+#section .board_container .board .board_header_container .name_day_container {margin: auto 0;}
+#section .board_container .board .board_header_container .name_day_containe .nickname{font-weight: bold;font-size: 14px;}
+#section .board_container .board .board_header_container .name_day_containe .day{font-size: 12px;}
+
+
+
 /* footer */
 #footer {width: 100%; height: 100px; position: fixed; bottom: 0; background-color: #ffb300; max-width: 768px; }
   

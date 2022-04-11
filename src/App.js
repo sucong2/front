@@ -70,11 +70,21 @@ function App() {
         </header>
         {/* header */}
         <section id="section">
-          <div className="board"></div>
-          <div className="board"></div>
-          <div className="board"></div>
-          <div className="board"></div>
-          <div className="board"></div>
+          <div className="board_container">
+            <div className="board">
+              <div className="board_header_container">
+                <div className="profile_pic"></div>
+								<div className='name_day_container'>
+									<div className="nickname">Nickname</div>
+									<div className="day">2022년 01월 23일</div>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div className="board_container"></div>
+          <div className="board_container"></div>
+          <div className="board_container"></div>
+          <div className="board_container"></div>
         </section>
         {/* section */}
         <footer id="footer"></footer>
