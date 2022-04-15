@@ -74,10 +74,33 @@ function App() {
             <div className="board">
               <div className="board_header_container">
                 <div className="profile_pic"></div>
-								<div className='name_day_container'>
-									<div className="nickname">Nickname</div>
-									<div className="day">2022년 01월 23일</div>
+                <div className="name_day_container">
+                  <div className="nickname">Nickname</div>
+                  <div className="day">2022년 01월 23일</div>
+                </div>
+              </div>
+              <div className="board_section_container">
+								<div className='title_container'>
+									<div className="title">로제떡볶이 드실 분</div>
+									<div className="text">
+										곱창떡볶이도 좋습니다.. 사실 떡볶이는 다 좋아요 튀김 냠냠
+										글쓰면서 배고파진다
+									</div>
 								</div>
+                <div className="location_container">
+                  <div className="location_icon"></div>
+                  <div className="location">푸름관</div>
+                </div>
+                <div className="restaurant_container">
+                  <div className="restaurant_icon"></div>
+                  <div className="restaurant">배떡 옥계점</div>
+                </div>
+              </div>
+              <div className="board_footer_container">
+                <form>
+                  <button className="start">시작하기</button>
+                </form>
+                <div className="number">모집 2/4명</div>
               </div>
             </div>
           </div>
