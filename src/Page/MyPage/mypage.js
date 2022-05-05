@@ -7,7 +7,11 @@ import { EnvironmentOutlined, HomeOutlined, LeftOutlined, DownCircleOutlined } f
 import 'antd/dist/antd.css';
 import '../../App.css';
 
+<<<<<<< HEAD
 function mypage) {
+=======
+function mypage() {
+>>>>>>> 0d75766067380acefbb314500c4d135034fdd4f2
   return (
       <Wrapper>
             <Link to = '/'>
@@ -166,3 +170,5 @@ const Button = styled.button`
 `;
 
 export default Board;
+
+//git test 입니다. 

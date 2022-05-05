@@ -17,7 +17,11 @@ const Input = styled.input`
   background: #fff;
   box-sizing: border-box;
 `;
+<<<<<<< HEAD
 //왜이러지
+=======
+// 왜 커밋이 안되는거지
+>>>>>>> 0d75766067380acefbb314500c4d135034fdd4f2
 const Button = styled.div`
   font-size: 18px;
   font-weight: 700;
@@ -38,8 +42,12 @@ const Button = styled.div`
     background-color: #efefef;
   `}
 `;
+<<<<<<< HEAD
 //아디 비번 값 받기, 뭐지 왜 안되는거야
 
+=======
+//아디 비번 값 받기
+>>>>>>> 0d75766067380acefbb314500c4d135034fdd4f2
 //값없으면 disabled
 function LoginForm() {
   return (
