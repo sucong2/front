@@ -11,7 +11,8 @@ import '../../App.css';
 function mypage) {
 =======
 function mypage() {
->>>>>>> 0d75766067380acefbb314500c4d135034fdd4f2
+>>>>>>> 0d75766067380acefbb314500c4d135034fdd4f2 
+// sdsd?? 
   return (
       <Wrapper>
             <Link to = '/'>
