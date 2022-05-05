@@ -7,7 +7,7 @@ import { EnvironmentOutlined, HomeOutlined, LeftOutlined, DownCircleOutlined } f
 import 'antd/dist/antd.css';
 import '../../App.css';
 
-function Board() {
+function mypage() {
   return (
       <Wrapper>
             <Link to = '/'>
