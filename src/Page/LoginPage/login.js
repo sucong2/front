@@ -38,7 +38,8 @@ const Button = styled.div`
     background-color: #efefef;
   `}
 `;
-//아디 비번 값 받기
+//아디 비번 값 받기, 뭐지 왜 안되는거야
+
 //값없으면 disabled
 function LoginForm() {
   return (
