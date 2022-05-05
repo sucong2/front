@@ -6,11 +6,7 @@ function Home() {
   return (
     <Wrapper>  
         <Link to = '/board'> <Button>Board</Button> </Link>
-<<<<<<< HEAD
-        <Link to = '/mypage'> <Button>MyPage</Button> </Link>
-=======
         <Link to = '/mypage'> <Button>mypage</Button> </Link>
->>>>>>> 0d75766067380acefbb314500c4d135034fdd4f2
     </Wrapper>
   );
 }
